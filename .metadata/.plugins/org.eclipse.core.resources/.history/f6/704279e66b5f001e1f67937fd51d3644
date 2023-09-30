@@ -1,0 +1,12 @@
+package Task2;
+
+public class MyCaesar {
+    private static final char[] ALPHABET_SIZE = { 'A', 'B', 'C', 'D', 'E', 'F',
+    		'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
+    		'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
+    private int n;
+    public MyCaesar(int shiftSteps) {
+    	this.n = shiftSteps;
+    }
+}
+    

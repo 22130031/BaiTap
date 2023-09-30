@@ -1,0 +1,6 @@
+package Task2;
+
+public class MyCaesar {
+    private static final char[] ALPHABET_SIZE = 26;
+}
+    

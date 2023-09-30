@@ -1,0 +1,14 @@
+package Task1;
+public class MyArray {
+    public static int[] mirror(int[] array) {
+        int[] mirrored = new int[array.length * 2];
+        for (int i = 0; i < array.length; i++) {
+            mirrored[i] = array[i];
+            mirrored[mirrored.length - 1 - i] = array[i];
+        }
+        return mirrored;
+    }
+    public static void main(String[] args) {
+    	int [] arr = {1,7,9,6};
+	}
+}

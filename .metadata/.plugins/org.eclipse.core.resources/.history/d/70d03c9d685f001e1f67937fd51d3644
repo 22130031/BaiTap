@@ -1,0 +1,7 @@
+package Task2;
+
+public class MyCaesar {
+    private static final int SHIFT = 3;
+    private static final int ALPHABET_SIZE = 26;
+    private static final char A = 'A';
+    private static final char Z = 'Z';
